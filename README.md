@@ -205,7 +205,7 @@ variables se muestran de forma gráfica en la Figura 5.1.
 
 <div class="figure">
 
-<img src="DesigualdadYDelitos_NonParametricStatatistics_files/figure-gfm/unnamed-chunk-2-1.png" alt="Diferencias entre los coeficientes de Gini y las TID por estado (únicamente con gobiernos del PAN)"  />
+<img src="README_files/figure-gfm/unnamed-chunk-2-1.png" alt="Diferencias entre los coeficientes de Gini y las TID por estado (únicamente con gobiernos del PAN)"  />
 
 <p class="caption">
 
@@ -345,7 +345,7 @@ incidencia delictiva se presenta en la Figura 5.2.
 
 <div class="figure">
 
-<img src="DesigualdadYDelitos_NonParametricStatatistics_files/figure-gfm/unnamed-chunk-6-1.png" alt="Diferencias calculadas entre los coeficientes de Gini y las TID (únicamente con gobiernos del PRI)"  />
+<img src="README_files/figure-gfm/unnamed-chunk-6-1.png" alt="Diferencias calculadas entre los coeficientes de Gini y las TID (únicamente con gobiernos del PRI)"  />
 
 <p class="caption">
 
