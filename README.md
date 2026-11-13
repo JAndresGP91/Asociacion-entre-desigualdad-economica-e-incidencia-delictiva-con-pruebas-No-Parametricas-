@@ -24,7 +24,7 @@ que no se tiene certeza sobre la distribución de los datos, lo más
 pertinente fue utilizar estadística no paramétrica.
 
 **Palabras** **clave**: Desigualdad económica, coeficiente de Gini, tasa
-de incidencia delictiva, diferencia de medias, prueba de hipótesis, U de
+de incidencia delictiva, prueba de hipótesis, estocásticamente mayor, U de
 Mann-Whitney, gobernador, estados de la república.
 
 # 2 INTRODUCCIÓN
@@ -65,9 +65,7 @@ o dejen de hacer las autoridades afecta en la incidencia delictiva.
 # 3 JUSTIFICACIÓN
 
 En este proyecto se utiliza como herramienta lo aprendido en el curso de
-Estadística No Paramétrica, en particular la prueba de medias para
-muestras independientes (no pareadas), y se utilizan las medidas de
-asociación. Los tamaños de muestra son pequeños, y la distribución de
+Estadística No Paramétrica, en particular la prueba sobre si una variable es estocásticamente mayor que otra, y se utilizan una medida de asociación. Los tamaños de muestra son pequeños, y la distribución de
 las tasas antes mencionadas no es conocida, y encontrar la
 transformación adecuada sobre éstas es un trabajo extra. Es plausible y
 necesario utilizar métodos no paramétricos dadas las condiciones
