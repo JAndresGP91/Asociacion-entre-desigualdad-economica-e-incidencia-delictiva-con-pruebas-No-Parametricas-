@@ -161,8 +161,8 @@ muestra aleatoria para los estados donde el coeficiente de Gini bajó y
 otra donde ocurrió lo contrario
 
 $$\begin{align*}
-X_1&=TID2018^+_1 - TID16^+_1,\ldots,X_m=TID2018^+_m - TID16^+_m \overset{iid}{\sim} F_X \\
-Y_1&=TID2018^-_1 - TID16^-_1,\ldots,Y_n=TID2018^-_n - TID16^-_n \overset{iid}{\sim} F_Y
+X_1&=TID18^+_1 - TID16^+_1,\ldots,X_m=TID2018^+_m - TID16^+_m \overset{iid}{\sim} F_X \\
+Y_1&=TID18^-_1 - TID16^-_1,\ldots,Y_n=TID2018^-_n - TID16^-_n \overset{iid}{\sim} F_Y
 \end{align*}$$
 
 $TID18^+_i$ y $TID16^+_i$ son las tasas de los estados donde se
@@ -179,7 +179,7 @@ las diferencias de las $X_i$ deberían ser mayormenre positivas.
 Estadísticamente hablando, tenemos que $Y \overset{st}{<} X$. Las
 hipótesis son
 
-$$H_0: F_X(t)=F_Y(t)  ~~\text{contra}~~ Ha: F_X(t) < F_Y(t).$$
+$$H_0: F_X(t)=F_Y(t) \quad \text{contra} \quad Ha: F_X(t) < F_Y(t).$$
 
 ### 5.4.1 Estados gobernados por el PAN
 
@@ -209,7 +209,7 @@ variables se muestran de forma gráfica en la Figura 5.1.
 
 <p class="caption">
 
-<span id="fig:unnamed-chunk-2"></span>Figure 5.1: Diferencias entre los
+<span id="fig:unnamed-chunk-2"></span>Figura 5.1: Diferencias entre los
 coeficientes de Gini y las TID por estado (únicamente con gobiernos del
 PAN)
 
@@ -246,7 +246,7 @@ nula se muestran en la Tabla 5.1.
 |   4 |             0.16667 |
 |   5 |             0.16667 |
 
-<span id="tab:unnamed-chunk-3"></span>Table 5.1: Probabilidades de U
+<span id="tab:unnamed-chunk-3"></span>Tabla 5.1: Probabilidades de U
 (estadístico de Mann-Whitney) exactas bajo la hipótesis nula con $m = 1$
 y $n = 5$
 
@@ -299,7 +299,7 @@ Kendall. El estadístico $T$ se calcula con los cambios del coeficiente
 de Gini y los de la tasa de incidencia delictiva en los dos años, luego
 las hipótesis son
 
-$$H_0: \tau = 0 ~~\text{contra}~~ H_a: \tau > 0$$
+$$H_0: \tau = 0 \quad \text{contra} \quad H_a: \tau > 0$$
 
 es decir, bajo la nula no se asocian la desigualdad económica y la
 presencia del crimen en estos dos años, y con la alternativa se
@@ -349,7 +349,7 @@ incidencia delictiva se presenta en la Figura 5.2.
 
 <p class="caption">
 
-<span id="fig:unnamed-chunk-6"></span>Figure 5.2: Diferencias calculadas
+<span id="fig:unnamed-chunk-6"></span>Figura 5.2: Diferencias calculadas
 entre los coeficientes de Gini y las TID (únicamente con gobiernos del
 PRI)
 
@@ -386,7 +386,7 @@ probabilidades exactas bajo la hipótesis nula se muestran en la Tabla
 |   3 |                 0.2 |
 |   4 |                 0.2 |
 
-<span id="tab:unnamed-chunk-7"></span>Table 5.2: Probabilidades de U
+<span id="tab:unnamed-chunk-7"></span>Tabla 5.2: Probabilidades de U
 (estadístico de Mann-Whitney) exactas bajo la hipótesis nula con $m = 4$
 y $n = 1$
 
@@ -430,7 +430,7 @@ Kendall. El estadístico $T$ se calcula con los cambios del coeficiente
 de Gini y los de la tasa de incidencia delictiva en los dos años, luego
 las hipótesis son
 
-$$H_0: \tau = 0 ~~vs.~~ H_a: \tau > 0$$
+$$H_0: \tau = 0  \quad \text{contra} \quad H_a: \tau > 0$$
 
 es decir, bajo la nula no se asocian la desigualdad económica y la
 presencia del crimen en estos dos años, y con la alternativa se
@@ -488,7 +488,7 @@ nula.
 | YUCATAN    | 0.452    | 23736   | 0.456    | 26462   | 2            | PRI y PAN       |
 | ZACATECAS  | 0.491    | 24160   | 0.419    | 26670   | 2            | PRI             |
 
-<span id="tab:unnamed-chunk-10"></span>Table 5.3: Coeficiente de Gini y
+<span id="tab:unnamed-chunk-10"></span>Tabla 5.3: Coeficiente de Gini y
 tasa de incidencia delictiva en 2016 y 2018 por estado, número de
 personas que gobernaron y su partido político
 
@@ -509,7 +509,7 @@ personas que gobernaron y su partido político
 | SINALOA    | 0.018               | 6250              | Creció                |
 | TAMAULIPAS | -0.002              | 2050              | Decreció              |
 
-<span id="tab:unnamed-chunk-11"></span>Table 5.4: Diferencias de los
+<span id="tab:unnamed-chunk-11"></span>Tabla 5.4: Diferencias de los
 coefientes de Gini y las TID para cada estado seleccionado al cambiar de
 año donde gobernó el PAN
 
@@ -530,7 +530,7 @@ año donde gobernó el PAN
 | EDOMEX   | -0.013              | -11231            | Decreció              |
 | SLP      | 0.014               | 6475              | Creció                |
 
-<span id="tab:unnamed-chunk-12"></span>Table 5.5: Diferencias de los
+<span id="tab:unnamed-chunk-12"></span>Tabla 5.5: Diferencias de los
 coefientes de Gini y las TID para cada estado seleccionado al cambiar de
 año donde gobernó el PRI
 
