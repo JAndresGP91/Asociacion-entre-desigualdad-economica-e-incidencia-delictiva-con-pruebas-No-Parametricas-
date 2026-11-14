@@ -223,7 +223,7 @@ $$y_1= -8561,~ y_2= -1562,~ y_3=-6298 ,~ y_4=5896 ,~ y_5= 2050 , ~ x_1 = 6250.$$
 
 Ahora, se utiliza una prueba aleatorizada porque el estadístico $U$ de
 Mann-Whitney es variable aleatoria discreta, cuyo rango en este caso es
-$R_{U}=\{0,~1,...,~5\}$. Las probabilidades exactas bajo la hipótesis
+$R_{U}=\lbrace0,~1,...,~5\rbrace$. Las probabilidades exactas bajo la hipótesis
 nula se muestran en la Tabla 5.1.
 
 ``` r
@@ -363,7 +363,7 @@ Tabla 5.5. Los datos que se tienen son
 $$x_1= -2426,~ x_2=-4341,~ x_3=-1331,~ x_4=6475, y_1 = -11231,$$
 
 por lo que $m=4$ y $n = 1$. Utilizamos una prueba aleatorizada ya que el
-estadístico $U$ en este caso tiene rango $R_U=\{0,~1,...,~4\}$, y las
+estadístico $U$ en este caso tiene rango $R_U=\lbrace 0,~1,...,~4\rbrace$, y las
 probabilidades exactas bajo la hipótesis nula se muestran en la Tabla
 5.2.
 
